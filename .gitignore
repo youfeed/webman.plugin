@@ -1,7 +1,8 @@
 /runtime
 /.idea
 /.vscode
-/vendor
+/vendor/*
+!/vendor/youloge
 *.log
 .env
 /tests/tmp
