@@ -8,6 +8,7 @@
 
 ### 已开发插件目录
 
+- [youloge.ini](https://github.com/youfeed/webman.ini) env 读取配置文件
 - [youloge.sqlite](https://github.com/youfeed/webman.sqlite) Sqlite3 文件夹映射表本地数据库
 - [youloge.tool](https://github.com/youfeed/webman.tool) Tool 辅助函数工具箱
 
