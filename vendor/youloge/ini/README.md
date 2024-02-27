@@ -17,4 +17,9 @@ HOST=127.0.0.1
 ...
 ```
 
+- 优化支持 
+- `ini(null)`返回全部配置 
+- `ini('MYSQL','默认值')` 返回一级配置[数组]
+- `ini('MYSQL.HOST')` 返回三级配置[字符串]
+
 > 在`config/database.php`  HOST=>`ini('MYSQL.HOST','127.0.0.1')`; // 读取配置文件 如果未找到则返回 `127.0.0.1`
